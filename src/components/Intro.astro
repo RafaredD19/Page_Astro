@@ -1,0 +1,41 @@
+---
+import { dataRS, type IDataRS } from "../helpers/Dummy/Data";
+import ButtonLinks from "./ButtonLinks.astro";
+
+---
+
+<section class="px-4 my-14">
+    <img
+    class="rounded-none lg:rounded-full xl:rounded-full md:rounded-full size-40  lg:float-end my-10 border border-1 border-white animate-wiggle animate-infinite"
+    src="../../public/img/perfil.png"
+    alt="Rafael Rossel Galarza"
+    
+  />
+
+  
+  <h1
+    class="text-white text-3xl md:text-4xl lg:text-5xl font-bold "
+  >
+    Hola! 👋 Soy Rafa<b class="text-orange-500">.</b>
+  </h1>
+  
+  <h2 class="text-white text-xl"> 
+    Porgramador  <span
+      class="text-orange-500 font-semibold"> FRONTEND</span>
+      y entusiasta en el Análisis
+      <span class="text-orange-500 font-semibold">DATOS</span>
+      
+    <p class="text-yellow-100">
+      Estudiante de Ing. de sistemas. De nacionalidad peruana y tengo 23 años.
+    </p>
+     <!-- #creador de contenido  -->
+     <code class="text-yellow-300 bg-slate-950 p-1 text-sm rounded-md border border-1  shadow-orange-200 ">console.log("Transforma sueños en código, programa tu grandeza.");
+    </code>
+  </h2>
+
+
+   </section>
+
+   <ul class="w-full gap-4 py-10 p-1 flex justify-normal shadow-neutral-500">
+    {dataRS.map((r): IDataRS => <ButtonLinks name={r.name} link={r.link} />)}
+    </ul>
