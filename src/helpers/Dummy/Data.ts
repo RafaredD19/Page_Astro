@@ -48,7 +48,7 @@ export const dataExperiencie: IDataExperiencie = [
   {
   role: "Programador junior",
   company: "Sysnet Del Perú - jornada completa",
-  duraction: "Nov. 2023 - actualidad ·  3 meses",
+  duraction: "Nov. 2023 - actualidad ·  6 meses",
   address: "Las Condes, Región Metropolitana de Santiago, ChileLas Condes, Región Metropolitana de Santiago, Chile",
   aptitudes: "Desarrollo de páginas web · Desarrollode scripts de automatización (Python) · Creación de Base de datos(SQL Server, MySql)",
 },
