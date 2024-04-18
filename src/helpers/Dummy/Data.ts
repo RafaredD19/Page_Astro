@@ -86,7 +86,7 @@ export const dataProjects: IProject = [
     title: 'Plataforma para el control de despachos de combustible (integrado con un app movil)',
     img: 'img/efuel.png',
     description: '',
-    url: 'https://superlative-squirrel-f5fb60.netlify.app/',
+    url: 'http://157.230.189.65:3040/login',
     active: 1
   },
   {
