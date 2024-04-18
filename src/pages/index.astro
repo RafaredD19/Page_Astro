@@ -5,6 +5,7 @@ import Intro from "../components/Intro.astro";
 import SectionsContainer from "../components/SectionsContainer.astro";
 import Title from "../components/Title.astro";
 import WorkExperience from "../components/WorkExperience.astro";
+import SkillsSection from "../components/SkillsSection.astro";
 import { dataProjects, type IProject } from "../helpers/Dummy/Data";
 
 import Layout from "../layouts/Layout.astro";
@@ -20,6 +21,10 @@ import NavBar from "../layouts/NavBar.astro";
 	<SectionsContainer id="experiencia-loboral" class="animate-fade-up" _style="" >
 		<WorkExperience />
 	</SectionsContainer>
+
+  <SectionsContainer id="skills" class="pb-10 pt-10 animate-fade-up" _style="">
+    <SkillsSection />
+  </SectionsContainer>
 
 	<SectionsContainer id="projects" class="pb-10 pt-10 animate-fade-up" _style="">
 		<Title title="Proyectos" />
