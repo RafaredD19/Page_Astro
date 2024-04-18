@@ -158,16 +158,16 @@
   const closeButton = document.getElementById("close-menu");
   const outsideMenu = document.getElementById("outside-menu");
 
-  menuButton.addEventListener("click", () => {
-    menuOpen.classList.toggle("hidden");
+  menuButton?.addEventListener("click", () => {
+    menuOpen?.classList.toggle("hidden");
   });
 
-  closeButton.addEventListener("click", () => {
-    menuOpen.classList.add("hidden");
+  closeButton?.addEventListener("click", () => {
+    menuOpen?.classList.add("hidden");
   });
 
   // Cerrar el menú al hacer clic fuera de él
-  outsideMenu.addEventListener("click", () => {
-    menuOpen.classList.add("hidden");
+  outsideMenu?.addEventListener("click", () => {
+    menuOpen?.classList.add("hidden");
   });
 </script>
